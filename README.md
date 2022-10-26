@@ -36,7 +36,7 @@ Ver un pod o deployment
 kubectl describe pod pod_name -n namespace_name
 kubectl describe deployment deployment_name -n namespace_name
 ```
-```
+
 
 Instalar Argocd: 
 ```
@@ -52,6 +52,4 @@ Ver un secret:
 ```
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 kubectl -n namespace_name get secret secret_name  -o jsonpath="{.data.password}" | base64 -d
-
-
 ```
