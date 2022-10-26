@@ -1,4 +1,4 @@
-# itba-261022
+# gitops-261022
 *  kind https://kind.sigs.k8s.io/docs/user/quick-start/ 
 *  ArgoCD https://argo-cd.readthedocs.io/en/stable/getting_started/ 
 *  stern (logs) https://github.com/wercker/stern 
