@@ -42,7 +42,7 @@ kubectl describe deployment deployment_name -n namespace_name
 Instalar Argocd: 
 ```
 kubectl create namespace argocd
-kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.4.12/manifests/install.yaml
 ```
 Port fowarding: 
 ```
